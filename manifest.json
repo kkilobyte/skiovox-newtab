@@ -6,15 +6,12 @@
   "icons": {
     "128": "icon.png"
   },
-  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwDIjcnXlsKZggk+4KFvjd9zV35swiraGG5QvRtAeXNUJ7NFcOCkDPjo9tL+02TbTDqgfeMHHN02GevH9wwZfQOvQkpXj8zAdna0awpDbeg4bvxFOB7598w6EJZOFLkID24GSmNrpIzVlCSWDuZzUSBeEFYBuPQo1Fk27OSmU/ao5FbVIoc22QTrh/8Vh9iP8jsLjo5Hx7uBJ492DxRTwoMDmTEG4BRLi/Phjexf09BvJ09oL/ypx7ZMUuBri7R0HhhoxM5qnxblF8u4BhfMkR2veNU1sjm/KaBHlhnh8GYPvBl4lEF9lsCfxSbfUru0SK66U3KelgNSCa3wLVrpJiQIDAQAB",
-  "commands": {
-    "background": {
-      "scripts": [
-        "/background/commands.js",
-        "/background/setup.js",
-        "/background/webstore-fix.js"
-      ]
-    }
+  "background": {
+    "scripts": [
+      "/background/commands.js",
+      "/background/setup.js",
+      "/background/webstore-fix.js"
+    ]
   },
   "chrome_url_overrides": {
     "newtab": "/new-tab/main.html"
@@ -23,7 +20,7 @@
     "commands",
     "tabs",
     "sessions",
-    "<all-urls>"
+    "<all_urls>"
   ],
   "content_scripts": [
     {
@@ -33,8 +30,8 @@
       "js": [
         "/content-scripts/window-open-fix.js"
       ],
-      "all-frames": true,
-      "run-at": "document_start"
+      "all_frames": true,
+      "run_at": "document_start"
     }
   ]
 }
