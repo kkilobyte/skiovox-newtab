@@ -2,7 +2,6 @@ import { FullscreenController } from "./fullscreen-controller.js";
 import { BatteryDisplay } from "./battery-display.js";
 import { DateDisplay } from "./date-display.js";
 import { TimeDisplay } from "./time-display.js";
-import { BackgroundController } from "./background-controller.js";
 
 const SETTINGS_URL = "chrome://settings";
 const NEW_TAB_URL = "chrome://new-tab-page";
