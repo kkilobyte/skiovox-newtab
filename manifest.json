@@ -9,7 +9,6 @@
   "background": {
     "scripts": [
       "/background/commands.js",
-      "/background/setup.js",
       "/background/webstore-fix.js"
     ]
   },
