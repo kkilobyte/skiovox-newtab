@@ -1,15 +1,10 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "version": "2.4.1",
   "name": "Skiovox New Tab",
   "description": "A New Tab page from the Skiovox exploit -- read more at skiovox.com",
   "icons": {
     "128": "icon.png"
-  },
-  "background": {
-    "scripts": [
-      "/background/webstore-fix.js"
-    ]
   },
   "chrome_url_overrides": {
     "newtab": "/new-tab/main.html"
