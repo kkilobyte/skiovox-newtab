@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "version": "2.5",
   "name": "Skiovox New Tab",
-  "description": "A New Tab page from the Skiovox exploit -- read more at skiovox.com",
+  "description": "A New Tab page from the Skiovox exploit.",
   "icons": {
     "128": "icon.png"
   },
