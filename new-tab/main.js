@@ -1,4 +1,3 @@
-import { DragController } from "./drag-controller.js";
 import { FullscreenController } from "./fullscreen-controller.js";
 import { BatteryDisplay } from "./battery-display.js";
 import { DateDisplay } from "./date-display.js";

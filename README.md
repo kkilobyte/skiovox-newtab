@@ -14,5 +14,5 @@ A custom catppuccin mocha new tab page skidded from the [Skiovox exploit helper]
 
 # TO DO
 1. Add a config page (preferrably when extension icon is clicked)
-2. Change logo
+2. Change logo from the default Skiovox Helper logo (maybe one related to tabs)
 3. Optimize code and remove unneeded code
