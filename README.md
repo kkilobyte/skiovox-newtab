@@ -3,7 +3,7 @@ A custom catppuccin mocha new tab page skidded from the [Skiovox exploit helper]
 Best paired with [Catppuccin Mocha for Chrome](https://github.com/catppuccin/chrome).
 
 # Preview
-![image](https://github.com/user-attachments/assets/12e675b9-1317-47e9-bc49-e229eb021030)
+![image](https://github.com/user-attachments/assets/90ab8c72-ee13-430c-91f0-40583f9dbb72)
 
 # Installation
 1. Go to https://github.com/kkilobyte/skiovox-newtab.
